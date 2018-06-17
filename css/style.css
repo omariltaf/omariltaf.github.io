@@ -1,0 +1,174 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  min-width: 600px;
+  width: auto !important;
+  width:600px;
+}
+
+hr {
+  margin: 0 50px;
+  border: 1px solid #1ABC9C;
+  border-radius: 10px;
+  background-color: #1ABC9C;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+.themed:hover {
+  color: #1ABC9C;
+}
+
+/*****************************************************************************/
+
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 6em;
+  margin: 0;
+  color: #1ABC9C
+}
+
+header {
+  text-align: center;
+  margin: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 1.3em;
+}
+
+.icon {
+  padding: 0 20px;
+  font-size: 1.6em;
+}
+
+.fa-github:hover {
+  color: #5F227F;
+}
+
+.fa-linkedin:hover {
+  color: #0274B3;
+}
+
+.fa-envelope:hover {
+  color: #D5473B;
+}
+
+/*****************************************************************************/
+
+main {
+  text-align: center;
+  margin: 40px;
+}
+
+.page-title {
+  font-size: 2em;
+  margin: 10px;
+  /*color: #1ABC9C*/
+}
+
+.aboutme-content {
+  margin: 40px 100px;
+}
+
+.flex-container {
+  /*border: 1px solid green;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  padding: 0;
+}
+
+.project-display {
+  border: 3px solid #1ABC9C;
+  margin: 40px 20px;
+  height: 250px;
+  width: 250px;
+  padding: 0;
+  /*border-radius: 50%;*/
+  overflow: hidden;
+  background-color: #1ABC9C;
+  position: relative;
+}
+
+.project-display a {
+  height: inherit;
+  width: inherit;
+}
+
+.project-display img {
+  height: inherit;
+  width: inherit;
+}
+
+.project-link:hover {
+  font-weight: normal;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1ABC9C;
+}
+
+.project-display:hover .project-overlay {
+  opacity: 0.9;
+}
+
+.project-description {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.p-d-top {
+  border: 3px solid white;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.p-d-bot {
+  font-size: 14px;
+}
+
+
+
+/*****************************************************************************/
+
+footer {
+  text-align: center;
+  margin: 40px;
+}
