@@ -91,6 +91,10 @@ main {
   margin: 40px 100px;
 }
 
+.portfolio-content {
+  margin: 40px 100px;
+}
+
 .flex-container {
   /*border: 1px solid green;*/
   display: flex;
