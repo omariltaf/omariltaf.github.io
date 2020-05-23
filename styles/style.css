@@ -1,15 +1,15 @@
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   min-width: 600px;
   width: auto !important;
-  width:600px;
+  width: 600px;
 }
 
 hr {
   margin: 0 50px;
-  border: 1px solid #1ABC9C;
+  border: 1px solid #1abc9c;
   border-radius: 10px;
-  background-color: #1ABC9C;
+  background-color: #1abc9c;
 }
 
 a {
@@ -26,16 +26,16 @@ a:hover {
 }
 
 .themed:hover {
-  color: #1ABC9C;
+  color: #1abc9c;
 }
 
 /*****************************************************************************/
 
 h1 {
-  font-family: 'Bungee', cursive;
-  font-size: 6em;
+  font-family: "Bungee", cursive;
+  font-size: 2em;
   margin: 0;
-  color: #1ABC9C
+  color: #1abc9c;
 }
 
 header {
@@ -48,7 +48,7 @@ ul {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
 }
 
 nav a {
@@ -63,15 +63,15 @@ nav a {
 }
 
 .fa-github:hover {
-  color: #5F227F;
+  color: #5f227f;
 }
 
 .fa-linkedin:hover {
-  color: #0274B3;
+  color: #0274b3;
 }
 
 .fa-envelope:hover {
-  color: #D5473B;
+  color: #d5473b;
 }
 
 /*****************************************************************************/
@@ -102,14 +102,14 @@ main {
 }
 
 .project-display {
-  border: 3px solid #1ABC9C;
+  border: 3px solid #1abc9c;
   margin: 40px 20px;
   height: 250px;
   width: 250px;
   padding: 0;
   /*border-radius: 50%;*/
   overflow: hidden;
-  background-color: #1ABC9C;
+  background-color: #1abc9c;
   position: relative;
 }
 
@@ -136,8 +136,8 @@ main {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #1ABC9C;
+  transition: 0.5s ease;
+  background-color: #1abc9c;
 }
 
 .project-display:hover .project-overlay {
@@ -163,8 +163,6 @@ main {
 .p-d-bot {
   font-size: 14px;
 }
-
-
 
 /*****************************************************************************/
 
